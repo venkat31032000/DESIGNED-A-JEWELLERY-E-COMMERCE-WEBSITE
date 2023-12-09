@@ -1,0 +1,7 @@
+:root {
+  --primary: rgb(17, 43, 76);
+  --secondary:rgb(255, 255, 255);
+  --danger:rgb(241, 70, 70);
+  --success:rgb(32, 233, 32);
+  --text-gary:rgb(136, 135, 135);
+}

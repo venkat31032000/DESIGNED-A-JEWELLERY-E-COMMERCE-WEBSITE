@@ -1,0 +1,230 @@
+body{
+  background-color: #DEEFFE;
+  font-family: "Verdana, serif";
+}
+
+.feed{
+    height: 420px;
+    overflow: scroll;
+}
+
+.recipefeed{
+  overflow: scroll;
+}
+
+
+.feedtext {
+    background-color: #DEEFFE;
+    color: black;
+    border-left: 8px solid black !important;
+    border: 1px solid black;
+}
+
+input{
+  width: 400px;
+  border: none;
+    border-bottom: 1px solid black;
+    margin-right: 50px;
+}
+
+ h2{
+  color: rgb(17, 43, 76);
+    margin-left: 50px;
+    height: 50px;
+}
+
+.send {
+    margin: 20px;
+    display: flex;
+}
+
+button {
+  background: rgb(17, 43, 76);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  color: #fff;
+  min-width: 70px;
+  cursor: pointer;
+  font-size: 17px;
+}
+button,
+.add-button {
+  background-position: center;
+  transition: background 0.8s;
+}
+button:hover,
+.add-button:hover {
+  background: rgb(179, 196, 220) radial-gradient(circle, transparent 1%, rgb(17, 43, 76) 1%)
+    center/15000%;
+}
+button:active,
+.add-button:active {
+  background-color: rgb(17, 43, 76);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.card {
+  height: 93%;
+  margin-left: -100px;
+  padding: 5px;
+}
+
+.foodimg {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.recipes {
+  height: 100%;
+  margin-left: 120px;
+  padding: 5px;
+  width: 90%;
+}
+
+a:link {
+    color: rgb(17, 43, 76);
+}
+
+.container{
+  background-color: white;
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 90%;
+    height: 600px;
+}
+
+.mob {
+  display: none;
+}
+
+@media (max-width: 1104px) {
+  .mob {
+    display: block;
+    margin-right: 10px;
+  }
+  .mob svg {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .foodlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+.top {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 136px;
+  margin-top: 20px;
+}
+.top img {
+  width: 120px;
+  height: 120px;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 1104px){
+    .container {
+      margin-left: 50px;
+    }
+    h2{
+      margin-left: 0px;
+    }
+    .send{
+      display: block;
+    }
+    .send input {
+      width: 200px;
+    }
+    .feed {
+      height: 500px;
+    }
+    .container {
+      height: 800px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .nav a:first-child {
+      margin-left: 300px;
+    }
+  
+    ul{
+      margin-left: 450px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .container{
+        display: block;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 475px) {
+    
+      .top {
+        margin-left:0px;
+      }
+      .container{
+        width: 100%;
+        flex-direction: column;
+
+
+      }
+    }
+  
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
