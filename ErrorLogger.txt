@@ -1,0 +1,1368 @@
+Error: Not a valid password. Password should contain atleast one lowercase letter, uppercase letter, digit and special character having length between 8 and 20.
+    at Validator.validatePassword (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/utilities/Validator.js:57:19)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/userRouter.js:15:19
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+Error: No Restaurants found in the database
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/service/restaurantService.js:10:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: No Restaurants found in the database
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/service/restaurantService.js:10:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: this.client.send is not a function
+    at Upload.__uploadUsingPut (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/@aws-sdk/lib-storage/dist-cjs/Upload.js:66:57)
+    at Upload.__doConcurrentUpload (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/@aws-sdk/lib-storage/dist-cjs/Upload.js:129:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async Upload.__doMultipartUpload (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/@aws-sdk/lib-storage/dist-cjs/Upload.js:211:9)
+    at async Upload.done (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/@aws-sdk/lib-storage/dist-cjs/Upload.js:39:16)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:52021)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:52110)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:52193)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:52253)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:52268)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:52303)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53085)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53237)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53311)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53354)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53408)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTUNREACH 169.254.169.254:80 - Local (10.0.0.60:53426)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53438)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53475)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53491)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:53757)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ReferenceError: validator is not defined
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:107:9
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at Multipart.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+Error: Not a valid emailId.
+    at Validator.validateEmailId (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/utilities/Validator.js:42:19)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:111:19
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at Multipart.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+Error: Restaurant already exists with this id
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/service/restaurantService.js:37:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ValidationError: Restaurant validation failed: restaurantImages.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    fieldname: 'restaurantImages',\n" +
+  "    originalname: 'planB.png',\n" +
+  "    encoding: '7bit',\n" +
+  "    mimetype: 'image/png',\n" +
+  '    buffer: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 01 f4 00 00 01 f4 08 06 00 00 00 cb d6 df 8a 00 00 00 01 73 52 47 42 00 ae ce 1c e9 00 00 20 00 ... 586570 more bytes>,\n' +
+  '    size: 586620\n' +
+  '  }\n' +
+  ']" (type string) at path "restaurantImages.0" because of "CastError"
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at model.$set (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:1463:12)
+    at model.$set (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:1146:16)
+    at model.Document (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:166:12)
+    at model.Model (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:121:12)
+    at new model (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:5038:15)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:3187:22
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:3222:7
+    at Array.forEach (<anonymous>)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:3221:15
+ReferenceError: imagePaths is not defined
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:123:39
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ValidationError: Restaurant validation failed: restaurantImages.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  `    ETag: '"da4a2e4d606f4f8eda73c176f3f0b451"',\n` +
+  "    Location: 'https://foodzilla.s3.amazonaws.com/1670252904167.jpg',\n" +
+  "    key: '1670252904167.jpg',\n" +
+  "    Key: '1670252904167.jpg',\n" +
+  "    Bucket: 'foodzilla'\n" +
+  '  }\n' +
+  ']" (type string) at path "restaurantImages.0" because of "CastError"
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at model.$set (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:1463:12)
+    at model.$set (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:1146:16)
+    at model.Document (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/document.js:166:12)
+    at model.Model (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:121:12)
+    at new model (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:5038:15)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:3187:22
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:3222:7
+    at Array.forEach (<anonymous>)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongoose/lib/model.js:3221:15
+TypeError: imageData.map is not a function
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:121:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: imageData.map is not a function
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:121:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+MongoServerError: E11000 duplicate key error collection: FoodZilla.Restaurant index: menu.itemId_1 dup key: { menu.itemId: null }
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/operations/insert.js:53:33
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection_pool.js:308:25
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:213:17
+    at handleOperationResult (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:329:20)
+    at Connection.onMessage (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:219:9)
+    at MessageStream.<anonymous> (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:132:20)
+    at MessageStream._write (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+MongoServerError: E11000 duplicate key error collection: FoodZilla.Restaurant index: menu.itemId_1 dup key: { menu.itemId: null }
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/operations/insert.js:53:33
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection_pool.js:308:25
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:213:17
+    at handleOperationResult (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:329:20)
+    at Connection.onMessage (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:219:9)
+    at MessageStream.<anonymous> (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:132:20)
+    at MessageStream._write (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+ReferenceError: imageData is not defined
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:122:9
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at multerMiddleware (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+TypeError: Cannot read properties of undefined (reading 'Location')
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:122:32
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at multerMiddleware (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+ReferenceError: imageData is not defined
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/routes/restaurantRouter.js:110:17
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at Multipart.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:56317)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTUNREACH 169.254.169.254:80 - Local (10.0.0.60:56350)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:56362)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:56487)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:56567)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTDOWN 169.254.169.254:80 - Local (10.0.0.60:56586)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: connect EHOSTUNREACH 169.254.169.254:80 - Local (10.0.0.60:56603)
+    at internalConnect (node:net:1036:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:466:18)
+    at node:net:1139:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+MongoServerError: E11000 duplicate key error collection: FoodZilla.Restaurant index: menu.itemId_1 dup key: { menu.itemId: 1 }
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/operations/insert.js:53:33
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection_pool.js:308:25
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:213:17
+    at handleOperationResult (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:329:20)
+    at Connection.onMessage (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:219:9)
+    at MessageStream.<anonymous> (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:132:20)
+    at MessageStream._write (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+MongoServerError: E11000 duplicate key error collection: FoodZilla.Restaurant index: menu.itemId_1 dup key: { menu.itemId: 1 }
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/operations/insert.js:53:33
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection_pool.js:308:25
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:213:17
+    at handleOperationResult (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:329:20)
+    at Connection.onMessage (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:219:9)
+    at MessageStream.<anonymous> (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:132:20)
+    at MessageStream._write (/Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+Error: Restaurant already exists with this id
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/service/restaurantService.js:37:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Could not connect to database
+    at /Users/pavansomashekar/Desktop/Food Zilla Backend/foodzilla-ws/src/utilities/connection.js:79:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ReferenceError: jwt is not defined
+    at genrateToken (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/userRouter.js:11:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/userRouter.js:79:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:14:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:7)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+MongoServerError: E11000 duplicate key error collection: FoodZilla.products index: name_1 dup key: { name: "Chicken Dominator" }
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/operations/insert.js:53:33
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/cmap/connection_pool.js:308:25
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:213:17
+    at handleOperationResult (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/sdam/server.js:329:20)
+    at Connection.onMessage (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:219:9)
+    at MessageStream.<anonymous> (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/cmap/connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:132:20)
+    at MessageStream._write (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+MongooseError: Operation `products.findOneAndUpdate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:153:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/response.js:1150:12)
+    at ServerResponse.json (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/response.js:271:14)
+    at ServerResponse.send (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/response.js:162:21)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:91:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: jwt is not defined
+    at isAuth (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/src/routes/productRouter.js:13:9)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/express/lib/router/index.js:47:12)
+CastError: Cast to ObjectId failed for value "getAll" (type string) at path "_id" for model "Product"
+    at model.Query.exec (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/query.js:4897:21)
+    at Query.then (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/query.js:4996:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+CastError: Cast to ObjectId failed for value "getAll" (type string) at path "_id" for model "Product"
+    at model.Query.exec (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/query.js:4897:21)
+    at Query.then (/Users/pavansomashekar/Desktop/Web Final Project/foodzilla/foodzilla-ws/node_modules/mongoose/lib/query.js:4996:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ValidationError: Address validation failed: name: Path `name` is required., mobNo: Path `mobNo` is required., pinCode: Path `pinCode` is required., address: Path `address` is required., town: Path `town` is required., state: Path `state` is required., city: Path `city` is required.
+    at Document.invalidate (/Users/harshinivc/Desktop/WebDesign/WebDesignFinal/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:3123:32)
+    at /Users/harshinivc/Desktop/WebDesign/WebDesignFinal/foodzilla/foodzilla-ws/node_modules/mongoose/lib/document.js:2911:17
+    at /Users/harshinivc/Desktop/WebDesign/WebDesignFinal/foodzilla/foodzilla-ws/node_modules/mongoose/lib/schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Address validation failed: name: Path `name` is required., mobNo: Path `mobNo` is required., pinCode: Path `pinCode` is required., address: Path `address` is required., town: Path `town` is required., state: Path `state` is required., city: Path `city` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Address validation failed: mobNo: Path `mobNo` is required., pinCode: Path `pinCode` is required., town: Path `town` is required., state: Path `state` is required., city: Path `city` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Address validation failed: pinCode: Path `pinCode` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Invalid API Key provided: sk_test_**************Q288
+    at res.toJSON.then.StripeAPIError.message (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\stripe\lib\StripeResource.js:184:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+ValidationError: Product validation failed: image: Path `image` is required.
+    at Document.invalidate (C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\venka\OneDrive\Desktop\INFO6150\6150INFO_WEB_FINAL_PROJECT\foodzilla-ws\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
