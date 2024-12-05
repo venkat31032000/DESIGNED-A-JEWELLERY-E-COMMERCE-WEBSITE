@@ -1,0 +1,47 @@
+@import "./vars.css";
+.profile-section {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background: #fff;
+  padding: 30px 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-photo {
+  width: 130px;
+  height: 130px;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.profile-photo h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+.profile-detail {
+  margin-top: 30px;
+  width: 80%;
+}
+.profile-detail .profile-input {
+  width: 60%;
+  margin: 0 auto;
+}
+.profile-detail .profile-input label {
+  background-color: #DEEFFE;
+  font-weight: bold;
+  font-size: medium;
+}
+.profile-detail .profile-input input {
+  width: 100%;
+}
+.profile-detail button {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
